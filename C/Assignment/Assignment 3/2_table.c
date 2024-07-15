@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main (){
-    int num = 1 ;
-    int table =2;
+    int i = 1 ;
+    int num =2;
 
-    while (num<=10){
+    while (i<=10){
+
+        int table = i * num ;
        
-        printf("%d\n",table*num);
-        num++;
+        printf("%d\n",table);
+        i++;
 
     }
 }
