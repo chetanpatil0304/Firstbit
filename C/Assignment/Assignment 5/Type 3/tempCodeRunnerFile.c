@@ -1,20 +1,18 @@
 #include <stdio.h>
-
-void range_armstrong (int , int)
 int main (){
 
-    int num=0 , r=0   ;
+    int num=0 , r=0 , temp  ;
     
 
     printf("Enter Range :");
     scanf("%d",&num);
-    range_armstrong (num,r);
+    range_armstrong (num,r,temp);
 
     return 0 ;
 }
-void range_armstrong (int num , int r  ){
+void range_armstrong (int num , int r , int temp ){
 
-    int sum , temp;
+    int sum ;
 
     for (int i =1 ; i<=num ;i++){
         temp = i ;

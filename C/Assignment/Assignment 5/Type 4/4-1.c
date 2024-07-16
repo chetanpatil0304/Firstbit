@@ -15,7 +15,6 @@ void main() {
         }
     }
    
-
 }
 
 int arm_strongrange (int num ){
@@ -42,7 +41,5 @@ while (temp!=0)
     
 }
 return sum==num;
-
-
 
 }
