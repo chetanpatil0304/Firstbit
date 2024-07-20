@@ -12,9 +12,6 @@ int main (){
         
     }
 
-    //printf("r%d",r);
-    //printf("r%d",last);
-
     int sum = last + r ;
     printf("The addition of first and last number :%d",sum);
 

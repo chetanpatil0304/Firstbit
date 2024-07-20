@@ -1,6 +1,10 @@
 
 #include<stdio.h>
-void main(){
+void main (){
+
+    strong ();
+}
+void strong(){
     int range =0;
     printf("enter number: ");
     scanf("%d",&range);

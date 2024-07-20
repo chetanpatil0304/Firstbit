@@ -1,9 +1,15 @@
 
 #include<stdio.h>
-void main(){
+void main (){
+
     int range =0;
     printf("enter number: ");
     scanf("%d",&range);
+
+    strong (range);
+}
+void strong(int range){
+    
     printf("the strong number are: ");
     for (int i = 1; i <= range; i++)
     {

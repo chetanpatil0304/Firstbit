@@ -1,11 +1,17 @@
 
 #include<stdio.h>
-void main(){
+void main (){
+
     int range =0;
     printf("enter number: ");
     scanf("%d",&range);
+
+    strong (&range);
+}
+void strong(int *range){
+    
     printf("the strong number are: ");
-    for (int i = 1; i <= range; i++)
+    for (int i = 1; i <= *range; i++)
     {
         int r =0,sum=0,fact,temp=i;
 
@@ -17,7 +23,7 @@ void main(){
         r--;//5-1 =4
     }
     temp/=10; //0
- sum=sum+fact;//120 +20 +5 = 145
+    sum=sum+fact;//120 +20 +5 = 145
  }
  
     if(sum==i) printf(" %d ",i);
