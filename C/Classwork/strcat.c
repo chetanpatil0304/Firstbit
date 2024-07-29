@@ -9,8 +9,8 @@ void main (){
     //dest: Destination string
     //src: Source string
 
-    // concatenating src at the end of dest 
+    //concatenating src at the end of dest 
     strcat(dest,src);
-
     printf(" %s ",dest);
+
 }

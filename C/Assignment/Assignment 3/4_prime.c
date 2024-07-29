@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-    int num =125 ;
+    int num =5;
 
     int d =2;
     int flag = 0 ;
@@ -17,10 +17,10 @@ int main (){
     }
 
     if (flag==1) {
-        printf("The number %d is a prime number",num);
+        printf("The number %d is not  a prime number",num);
 
     }else {
-        printf("The number %d is a not prime number ",num);
+        printf("The number %d is a prime number ",num);
     }
 
        

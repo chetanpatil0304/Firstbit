@@ -19,7 +19,7 @@ void main (){
 
     }
 
-    int sum []= { };
+    int sum [10] ;
 
     printf("Sum of array is \n");
 
@@ -27,10 +27,6 @@ void main (){
         sum [k] =arr1[k]+arr2[k];
         printf("%d\n",sum[k]);
     }
-    
-
- 
-
 
 
 

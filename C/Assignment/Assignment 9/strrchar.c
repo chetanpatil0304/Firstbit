@@ -5,10 +5,6 @@ void main (){
     char str[] = "Heya Welcome"; 
     char ch = 'e'; 
 
-    
-
-
-
     //char *strchr(const char *str, int c);
 
     //str: specifies the pointer to the null-terminated string to be searched in.

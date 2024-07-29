@@ -1,16 +1,13 @@
 #include <stdio.h>
-void fToc (celsius);
+double  temperature1 ();
 void main (){
 
-    float celsius = 35.5 ;
-
-    fToc (celsius);
+    printf("Temprature in Fahrenheit is %lf ", temperature1 ());
 }
-void fToc (float celsius){
-    float fahrenheit ;
+double temperature1 (double celsius){
 
-    fahrenheit = celsius *( 9/5) + 32 ;
-
-    printf("Temprature in Fahrenheit is %.2f ",fahrenheit);
+    celsius = 35.985 ;
+ 
+    return celsius *( 9/5) + 32 ;
 
 }
