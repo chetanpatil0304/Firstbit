@@ -2,28 +2,17 @@
 #include <string.h>
 void main (){
 
-     int *arr;
-    int size;
+    int n ;
+    printf("Enter the size of the array");
+    scanf("%d",&n);
 
-    printf("Enter the number of elements: ");
-    scanf("%d", &size);
-
-    // Allocate memory for the array
-    arr = (int *)malloc(size * sizeof(int));
-
-    if (arr == NULL) {
-        printf("Memory allocation failed");
-        return;
+    int arr[n];
+    printf("Enter the array elements \n");
+    for(int i=0 ; i<n; i++){
+        scanf("%d",&arr[i]);
     }
 
-    printf("Enter array elements: ");
-
-    for (int i = 0; i < size; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-
-    Sortingarray (arr,size);
+    Sortingarray (arr,n);
 }
 
 void Sortingarray(int * arr ,int n){

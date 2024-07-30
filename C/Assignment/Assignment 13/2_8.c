@@ -7,16 +7,14 @@ typedef struct{
 
 }Distance;
 
-void display(Distance);
+void display(Distance*);
 Distance store(Distance);
 
 int main() {
-    Distance a1 , a2;
+    Distance a1 ;
 
     a1 = store(a1);
-    display(a1);
-    a2 = store(a2);
-    display(a2);
+    display(&a1);
 
     return 0;
 }
@@ -32,9 +30,9 @@ Distance store(Distance a2) {
     return a2;
 }
 
-void display(Distance a2) {
+void display(Distance* a2) {
 
-    printf(" %d:",a2.feet);
-    printf("%d",a2.inch);
+    printf(" %d:",a2->feet);
+    printf("%d",a2->inch);
 
 }
